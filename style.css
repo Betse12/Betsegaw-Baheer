@@ -158,26 +158,30 @@ form #email{
     transition: background-color 1s;
   }
 
-  footer {
-    margin-top: 30px;
-    background-color: #ddd;
-    padding: 20px;
-  }
-  
-  footer > ul {
+ footer{
+    min-height: 12vh;
+    background-color: rgb(161, 159, 159);
+    display: flex;
+    justify-content: end;
+
+ }
+
+ .navbar ul {
+    display: flex;
+    list-style: none;
+
+ }
+    
+ .navbar ul li a{
+    text-decoration: none;
+   
+
+ }
+
+ span{
     display: flex;
     justify-content: flex-end;
-  }
-  
-  footer > ul > li {
-    padding: 0 10px;
-  }
-  
-  footer > span {
-    margin-top: 5px;
-    display: flex;
-    justify-content: flex-end;
-    font-size: 0.9em;
-    color: #444;
-  }
+    margin-right: 15px;
+    
+ }
   

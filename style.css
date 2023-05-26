@@ -59,3 +59,47 @@ form #email{
     background-color: #f1c40f;
     font-weight: bold
 }
+
+#description{
+    
+    margin-right: 20px;
+  
+}
+
+.feature .fa-solid{
+
+    
+    align-items: center;
+    justify-content: center;
+
+    height: 75px;
+    width: 12vw;
+    color: darkorange;
+    font-size: 50px;
+    
+}
+
+.feature{
+    margin-left: 164px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  
+    max-width: 70%;
+
+}
+
+.feature-item{
+    display: flex;
+    
+    margin-left: 10px;
+    padding: 20px;
+    
+  
+}
+
+.feature .feature-item{
+    max-width: 90%;
+    display: flex;
+}
